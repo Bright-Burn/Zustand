@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useIncrementStore } from '../../store';
+import React from 'react';
+import { useIncrementStore } from '../../../store';
 
 export function Counter() {
     const count = useIncrementStore(state => state.count)

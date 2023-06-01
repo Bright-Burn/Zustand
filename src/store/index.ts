@@ -1,2 +1,2 @@
-export { useIncrementStore, incrementSelector } from './increment'
-export { useTodoStore } from './todos'
+export { useIncrementStore, incrementSelector } from './CommentsStore/increment'
+export { useTodoStore } from './CommentsStore/todos'

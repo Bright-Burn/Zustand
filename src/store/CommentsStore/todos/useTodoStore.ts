@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { getTodos } from '../../api'
+import { getTodos } from '../../../api'
 
 export interface todo {
     todo: any

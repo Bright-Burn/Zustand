@@ -1,16 +1,11 @@
 import './App.css';
-import { Decrement, Increment } from './components';
-import { Counter } from './components/counter/Counter';
-import { Todo } from './components/todos/Todo';
+import { TodoPage } from './Pages/todoPage/TodoPage';
 
 function App() {
 
   return (
     <div className='container'>
-      <Increment />
-      <Decrement />
-      <Counter />
-      <Todo />
+      <TodoPage />
     </div>
   );
 }
