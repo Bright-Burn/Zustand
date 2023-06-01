@@ -756,6 +756,10 @@ module.exports = function (webpackEnv) {
                   "group": ["*/api/*"],
                   "message": "imports from api modules not allowed. Use public interface - index.ts"
                 },
+                {
+                  "group": ["**/api/*"],
+                  "message": "imports from api modules not allowed. Use public interface - index.ts"
+                },
                   // {
                   // "group": ["*/components/*"],
                   // "message": "imports from components modules not allowed. Use public interface - index.ts"

@@ -1,4 +1,4 @@
-import { todo } from "./types"
+import { todo } from "../../types"
 
 export const getTodos = async (id: string): Promise<todo | never> => {
     let todo = await (await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)).json()

@@ -2,7 +2,7 @@
 export function CommentsHeader() {
 
     return (
-        <div className='container'>
+        <div >
             Header
         </div>
     );
